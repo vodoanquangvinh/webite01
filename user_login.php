@@ -74,7 +74,8 @@ if(isset($_POST['submit'])){
    <form action="" method="post">
       <h3>đăng nhập</h3>
       <input type="email" name="email" required placeholder="nhập địa chỉ email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')" value="<?php echo  $emailid; ?>">
-      <input type="password" name="pass" required placeholder="nhập mật khẩu" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')" value="<?php echo  $password; ?>">
+      <input type="password" name="pass" required placeholder="nhập mật khẩu" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')" value="<?php echo  $password; ?>">
+
       <div class="check">
          <label><input type="checkbox" name="rememberMe"> Nhớ với tôi</label>
          <a href="forgot_password.php">Quên mật khẩu?</a>
