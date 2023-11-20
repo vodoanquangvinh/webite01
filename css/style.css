@@ -272,7 +272,7 @@ section{
 .view-post .row .col .image{
    width: 100%;
    height: 30rem;
-   margin-bottom: 1.5rem;
+   margin-bottom: 1rem;
 }
 
 .view-post .row .col .name{
@@ -340,13 +340,17 @@ section{
 .view-post .heading-view .view-btn{
    font-size: 20px;
    color: #ffffff;
-   border: 1.5pt solid #fff;
+   border: 1pt solid #fff;
    display: inline-block;
    width: auto;
    background-color: var(--main-color);
    border-radius: .5rem;
    padding: 1rem;
    box-shadow: var(--box-shadow);
+}
+
+.view-post .heading-view .view-btn:hover{
+   background-color: var(--black);
 }
 
 .flexview-btn{
@@ -534,13 +538,17 @@ section{
 .reviews-container .heading-view .view-btn{
    font-size: 20px;
    color: #ffffff;
-   border: 1.5pt solid #fff;
+   border: 1pt solid #fff;
    display: inline-block;
    width: auto;
    background-color: #00ae6c;
    border-radius: .5rem;
    padding: 1rem;
    box-shadow: var(--box-shadow);
+}
+
+.reviews-container .heading-view .view-btn:hover{
+   background-color: var(--black);
 }
 
 .home-bg{
@@ -966,6 +974,56 @@ section{
    font-size: 1.5rem;
    color:var(--red);
    margin-right: auto;
+}
+
+.pagination{
+   text-align: center;
+   margin: 40px 30px 30px;
+   user-select: none;
+}
+
+.pagination li{
+   display: inline-block;
+   margin: 5px;
+   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.2rem;
+   line-height: 45px;
+}
+
+.previous-page, .next-page{
+   background: #f91900;
+   width: 80px;
+   border-radius: 45px;
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+
+.previous-page:hover{
+   transform: translateX(-5px);
+}
+
+.next-page:hover{
+   transform: translateX(5px);
+}
+
+.current-page, .dots{
+   background: #ccc;
+   width: 45px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.active{
+   background: #f91900;
+}
+
+.disable{
+   background: #ccc;
 }
 
 .form-container form{

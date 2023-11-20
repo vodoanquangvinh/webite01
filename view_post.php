@@ -231,7 +231,7 @@ include 'components/wishlist_cart.php';
    <?php
          }
       }else{
-         echo '<p class="empty">không có đánh giá nào cả!</p>';
+         echo '<p class="empty">chưa có đánh giá nào về sản phẩm!</p>';
       }
    ?>
 
