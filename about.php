@@ -60,8 +60,8 @@ if(isset($_SESSION['user_id'])){
    <div class="swiper-wrapper">
 
       <div class="swiper-slide slide">
-         <img src="images/girl-people.jpg" alt="">
-         <p>Chính sách bảo hành của WatchIT khiến tôi rất hài lòng, sản phẩm chính hãng, giá thành hợp lý.</p>
+         <img src="images/01-avatar.jpg" alt="">
+         <p>Chính sách bảo hành của WatchIT khiến tôi rất hài lòng, sản phẩm chính hãng, giá thành hợp lý. Tìm kiếm theo giá rất thích hợp luôn nhe.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -73,8 +73,8 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/men-people.jpg" alt="">
-         <p>Giao hàng siêu nhanh, đổi trả trong 24 giờ, nhân viên tư vấn nhiệt tình.</p>
+         <img src="images/02-avatar.jpg" alt="">
+         <p>Giao hàng siêu nhanh, đổi trả trong 24 giờ, nhân viên tư vấn nhiệt tình. Giao hàng tận nơi sản phẩm rất là oke luôn.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -86,8 +86,8 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/men-people.jpg" alt="">
-         <p>Trang Web có phân loại sản phẩm theo các hãng khác nhau khiến mình rất thích.</p>
+         <img src="images/03-avatar.jpg" alt="">
+         <p>Trang Web có phân loại sản phẩm theo các hãng khác nhau khiến mình rất thích. Sẽ giới thiệu bạn bè đến ủng hộ shop nhiều hơn.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -99,7 +99,7 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/men-people.jpg" alt="">
+         <img src="images/04-avatar.jpg" alt="">
          <p>Phải nói là siêu ưng luôn, đồng hồ siêu xịn, giao hàng nhanh mới đặt hôm qua thì hôm nay đã có hàng. Chấm 10 điểm cho shop.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -112,7 +112,7 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/girl-people.jpg" alt="">
+         <img src="images/05-avatar.jpg" alt="">
          <p>Không có gì bàn cãi hết, sản phẩm quá tuyệt vời, lần đầu tiên mua tại WatchIT nhưng thất rất oke luôn nha.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -125,7 +125,7 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/men-people.jpg" alt="">
+         <img src="images/06-avatar.jpg" alt="">
          <p>Sản phẩm của Website luôn cập nhật mẫu mã mới, dễ lựa chọn và có nhiều sản phẩm phù hợp với giá tiền, lại còn được freeship nữa chứ.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
