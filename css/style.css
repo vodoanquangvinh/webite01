@@ -1097,11 +1097,14 @@ section{
    font-size: 1.5rem;
    color:var(--light-color);
    padding:1rem 0;
+   text-align: justify;
 }
 
 .about .row .content .btn{
    display: inline-block;
    width: auto;
+   border: 1pt solid #fff;
+   box-shadow: var(--box-shadow);
 }
 
 .reviews .slide{
