@@ -120,7 +120,7 @@ include 'components/wishlist_cart.php';
 
    $(function(){
       var numberOfItems = $(".box-container .box").length;
-      var limitPerPage = 12;
+      var limitPerPage = 10;
       var totalPages = Math.ceil(numberOfItems / limitPerPage);
       var paginationSize = 7;
       var currentPage;

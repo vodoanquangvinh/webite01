@@ -61,7 +61,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/01-avatar.jpg" alt="">
-         <p>Chính sách bảo hành của WatchIT khiến tôi rất hài lòng, sản phẩm chính hãng, giá thành hợp lý. Tìm kiếm theo giá rất thích hợp luôn nhe.</p>
+         <p>Chính sách bảo hành của WatchIT khiến tôi rất hài lòng, sản phẩm chính hãng, giá thành hợp lý.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -87,7 +87,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/03-avatar.jpg" alt="">
-         <p>Trang Web có phân loại sản phẩm theo các hãng khác nhau khiến mình rất thích. Sẽ giới thiệu bạn bè đến ủng hộ shop nhiều hơn.</p>
+         <p>Trang Web có phân loại sản phẩm theo các hãng khác nhau khiến mình rất thích.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -100,7 +100,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/04-avatar.jpg" alt="">
-         <p>Phải nói là siêu ưng luôn, đồng hồ siêu xịn, giao hàng nhanh mới đặt hôm qua thì hôm nay đã có hàng. Chấm 10 điểm cho shop.</p>
+         <p>Phải nói là siêu ưng luôn, đồng hồ siêu xịn, giao hàng nhanh mới đặt hôm qua thì hôm nay đã có hàng.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -126,7 +126,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/06-avatar.jpg" alt="">
-         <p>Sản phẩm của Website luôn cập nhật mẫu mã mới, dễ lựa chọn và có nhiều sản phẩm phù hợp với giá tiền, lại còn được freeship nữa chứ.</p>
+         <p>Sản phẩm của Website luôn cập nhật mẫu mã mới, dễ lựa chọn và có nhiều sản phẩm phù hợp với giá tiền.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
