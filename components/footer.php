@@ -1,3 +1,12 @@
+<?php
+
+if(isset($_POST['call_review'])){
+
+   $call_msg[] = 'zalo!';
+}
+
+?>
+
 <footer class="footer">
 
    <section class="grid">
@@ -43,7 +52,7 @@
    </div>
 
    <div id="container-phone">
-         <a href="contact.php" class="fa-solid fa-phone fa-shake fa-2xl"></a>
+         <a href="" class="fa-solid fa-phone fa-shake fa-2xl"></a>
    </div>
    
    <div id="backtop"> 
@@ -66,5 +75,7 @@
          });
       });
    </script>
+
+<?php include 'components/alers.php'; ?>
 
 </footer>

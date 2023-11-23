@@ -65,7 +65,7 @@ include 'components/wishlist_cart.php';
 <section class="view-post">
 
     <div class="heading-view">
-        <h1>chi tiết</h1>
+        <h1>chi tiết đánh giá</h1>
         <a href="home.php" class="view-btn" style="margin-top: 0;">Tất cả sản phẩm</a>
     </div>
 

@@ -1194,7 +1194,6 @@ section{
    width: 20%;
    border-radius: .5rem;
    font-size: 1.7rem;
-   display: flex;
    border:var(--border);
    margin-top: 0rem;
    align-items: center;

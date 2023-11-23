@@ -42,7 +42,6 @@ if(isset($_POST['submit'])){
    }else{
       $warning_msg[] = 'Vui lòng đăng nhập!';
    }
-
 }
 
 include 'components/wishlist_cart.php';
