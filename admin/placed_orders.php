@@ -69,7 +69,6 @@ if(isset($_GET['delete'])){
          <input type="hidden" name="order_id" value="<?= $fetch_orders['id']; ?>">
          <select name="payment_status" class="select">
             <option selected disabled><?= $fetch_orders['payment_status']; ?></option>
-            <option value="đang xử lý đơn hàng">đang xử lý đơn hàng</option>
             <option value="đã chuẩn bị hàng">đã chuẩn bị hàng</option>
             <option value="đang vận chuyển">đang vận chuyển</option>
             <option value="đang giao hàng">đang giao hàng</option>

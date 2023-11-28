@@ -58,7 +58,6 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>đăng nhập</h3>
-      <p>tên đăng nhập = <span>quangvinh</span> & mật khẩu = <span>12345</span></p>
       <input type="text" name="name" required placeholder="tên đăng nhập" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="mật khẩu" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="ĐĂNG NHẬP" class="btn" name="submit">
